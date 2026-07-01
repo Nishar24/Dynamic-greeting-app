@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 
 export default function Greeting() {
-  const [currentTime, setCurrentTime] = useState(new Date());
+  const [currentTime, setCurrentTime] = useState(new Date());//useState
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
