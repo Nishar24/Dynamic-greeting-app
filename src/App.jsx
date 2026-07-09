@@ -8,7 +8,7 @@ export default function Greeting() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentTime(new Date());
-    }, 2000);
+    }, 1000);
 
     return () => clearInterval(timer);
   }, []);
